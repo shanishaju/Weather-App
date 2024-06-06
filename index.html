@@ -21,46 +21,46 @@
     <h1 class="headone">Weather Updates</h1>
 
     <div class="main-container">
-        <div class="input-box d-flex align-items-center justify-content-center">
+        <div class="input-box d-flex align-items-center justify-content-center flex-wrap">
             <input id="city" type="text" placeholder="Search City..." class="input-with-button">
             <button class="search-button" onclick="Search()">Search</button>
         </div>
         <div class="container" id="view">
             <div class="row m-5">
                 <div class="col-12">
-                    <div id="main-div" class="d-flex">
-                        <div class="col-6">
-                            <div class="weather-info">
+                    <div id="main-div" class="row d-flex">
+                        <div class="col-12 col-md-6 mb-3 mb-md-0">
+                            <div class="weather-info text-center text-md-start">
                                 <p>30°C <br> Mist <br> 27-05-2024</p>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-md-6 text-center text-md-end">
                             <img id="image1" src="./Images/Rain.svg" alt="Weather Icon" class="weather-image">
                         </div>
                     </div>
-                    <div class="row2 d-flex justify-content-center m-5">
-                        <div id="country" class="weather-detail col-2">
+                    <div class="row d-flex justify-content-center m-5">
+                        <div id="country" class="weather-detail col-6 col-md-2 mb-3 mb-md-0">
                             <div class="icon">
                                 <i class="fa-solid fa-globe fa-fade fs-5"></i>
                             </div>
                             <p>Country</p>
                             <p>100</p>
                         </div>
-                        <div id="Humidity" class="weather-detail col-2 ms-3">
+                        <div id="Humidity" class="weather-detail col-6 col-md-2 mb-3 mb-md-0 ms-md-3">
                             <div class="icon">
                                 <i class="fa-solid fa-droplet fa-beat-fade fs-5"></i>
                             </div>
                             <p>Humidity</p>
                             <p>1000</p>
                         </div>
-                        <div id="Wind" class="weather-detail col-2 ms-3">
+                        <div id="Wind" class="weather-detail col-6 col-md-2 mb-3 mb-md-0 ms-md-3">
                             <div class="icon">
                                 <i class="fa-solid fa-wind fa-fade fs-5"></i>
                             </div>
                             <p>Wind</p>
                             <p>100</p>
                         </div>
-                        <div id="Pressure" class="weather-detail col-2 ms-3">
+                        <div id="Pressure" class="weather-detail col-6 col-md-2 mb-3 mb-md-0 ms-md-3">
                             <div class="icon">
                                 <i class="fa-solid fa-fire fa-fade fs-4"></i>
                             </div>
