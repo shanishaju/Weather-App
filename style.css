@@ -1,0 +1,144 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(./Images/dramatic-sky-idyllic-landscape-dusk-generated-by-ai.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    overflow: hidden;
+    
+}
+.headone{
+    margin-top: -10px;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: "Teko", sans-serif;
+}
+.frow p{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: "Teko", sans-serif;
+}
+p{
+    font-family: "Teko", sans-serif;
+
+}
+#main-div{
+    /* align-items: center;
+    justify-content: center;
+    display: flex; */
+    height: 600px;
+}
+.F-contanier {
+    /* max-width: 80px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head-Heat{
+    font-size: 80px;
+    margin-right: 70px;
+    margin-left: 40px;
+}
+.F-contanier img{
+    margin-left: 30px;
+}
+.main-container{
+    background-color: rgba(128, 128, 128, 0.466);
+    width: 1000px;
+    margin-left: 200px;
+    border-radius: 90px;
+    height: 650px;
+}
+#Presure{
+    background-color: rgba(255, 255, 255, 0.308);
+    border-radius: 30px;
+    width: 20%;
+    padding-left: 20px;
+}
+#Presure i{
+    margin-left: 19px;
+
+}
+#Wind{
+    background-color: rgba(255, 255, 255, 0.308);
+    border-radius: 30px;
+    width: 20%;
+    padding-left: 25px;
+}
+#wind i{
+    margin-left: 20px;
+}
+#country{
+    background-color: rgba(255, 255, 255, 0.308);
+    border-radius: 30px;
+    width: 20%;
+    padding-left: 15px;
+}
+#country i{
+    margin-left: 20px;
+}
+#Humidity{
+    background-color: rgba(255, 255, 255, 0.308);
+    border-radius: 30px;
+    width: 20%;
+    padding-left: 15px;
+
+
+
+}
+#Humidity i{
+    margin-left: 20px;
+
+}
+.row2 p{
+  padding: 2px 2px;
+}
+.input-box input{
+background-color: rgba(255, 255, 255, 0.186);
+border: none;
+width: 50%;
+height: 40px;
+}
+
+/* button inside inputbox */
+.input-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.input-with-button {
+    padding-right: 90px; 
+    border: 1px solid #ccc; 
+    outline: none; 
+}
+
+.search-button {
+    position: absolute;
+    right: 270px; 
+    border: none;
+    background-color: rgba(128, 128, 128, 0.163); 
+    padding: 10px 20px; 
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: rgba(128, 128, 128, 0.238); 
+}
+/* End button inside inputbox */
+
+.head-Mist{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
